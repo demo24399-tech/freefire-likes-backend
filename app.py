@@ -9,7 +9,7 @@ from itsdangerous import URLSafeTimedSerializer, BadSignature, SignatureExpired
 
 app = Flask(__name__)
 
-BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
+BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "9111077545:AAGoOB8iPs76BuarJwfstmkIktog83EGZ8E")
 CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "-1004112006696")
 ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "")
 SESSION_SECRET = os.environ.get("ADMIN_SESSION_SECRET", "")
