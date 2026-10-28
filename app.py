@@ -5,7 +5,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
+BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "9111077545:AAGoOB8iPs76BuarJwfstmkIktog83EGZ8E")
 CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "-1004112006696")
 
 
